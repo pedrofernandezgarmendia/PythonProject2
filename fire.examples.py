@@ -14,3 +14,10 @@ with open("text.txt", "r") as fp:
         # print(line.rstrip())
         line_number += 1
 print("done printing")
+
+import random
+
+people = ["Jon", "Ana", "Maria", "Jim", "Florence", "George", "James"]
+random_person = random.choice(people)
+
+print(random_person)

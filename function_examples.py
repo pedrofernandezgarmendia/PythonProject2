@@ -28,7 +28,7 @@ def special_op(a, b):
     result = 10*a+b
     return result
 
-
+print(special_op(2,3))
 print(special_op(10,2))
 print(special_op(2,10))
 result = special_op(8,9)
@@ -40,7 +40,7 @@ def bond_greet(name):
     print(f"The name is: {name}")
 
 def bondise_name(first_name="Pedro", last_name="Fernandez"):
-    return f"{first_name}, {first_name} {last_name}"
+    return f"{last_name}, {first_name} {last_name}"
 
 print(bondise_name(first_name="Pedro", last_name="Fernandez"))
 bond_greet(bondise_name(first_name="Pedro", last_name="Fernandez"))
