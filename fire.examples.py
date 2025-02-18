@@ -7,6 +7,7 @@ with open("text.txt", "r") as fp:
     print(fp.read())
 
 # lets read from the same file, line by line
+line_number = 1
 with open("text.txt", "r") as fp:
     for line in fp: # we iterate over the file, line by line
         print(f"{line_number}:{line}", end="") # ask print not to add a new line
